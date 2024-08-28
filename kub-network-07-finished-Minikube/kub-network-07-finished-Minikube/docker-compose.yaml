@@ -11,6 +11,8 @@ services:
       - "8080:8080"
   tasks:
     container_name: tasks-service.webapp
+    volumes:
+      - tasks-vol:/app/tasks
     build: ./tasks-api
     ports: 
       - "8000:8000"
@@ -21,3 +23,5 @@ services:
     build: ./frontend
     ports: 
       - "80:80"
+volumes:
+  tasks-vol:
