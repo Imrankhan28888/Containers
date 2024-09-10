@@ -11,5 +11,6 @@ jobs:
       - name: Build the Docker image
         run: docker build ./kub-network-07-finished-Minikube/kub-network-07-finished-Minikube/frontend/ -t imrankhan28888/kub-demo-frontend:latest4
       - name: push image to docker Hub
-        run: 
+        run:
+          docker login -u imrankhan28888 -p ${{ secrets.DOCKER_HUB_TOKEN }} 
           docker push imrankhan28888/kub-demo-frontend:latest4
