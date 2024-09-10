@@ -12,4 +12,4 @@ jobs:
         run: docker build ./kub-network-07-finished-Minikube/kub-network-07-finished-Minikube/frontend/ -t imrankhan28888/kub-demo-frontend:latest4
       - name: push image to docker Hub
         run:
-          docker login -u imrankhan28888 --p dckr_pat_Sr4irX-f2OZ6PPTuD_UIigLpE8o
+          docker login -u imrankhan28888 -p dckr_pat_Sr4irX-f2OZ6PPTuD_UIigLpE8o
