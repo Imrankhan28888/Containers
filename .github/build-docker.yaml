@@ -9,7 +9,7 @@ jobs:
       - name: checkout
         uses: actions/checkout@v4
       - name: Build the Docker image
-        run: docker build ./frontend/ -t imrankhan28888/kub-demo-frontend:latest4
+        run: docker build ./kub-network-07-finished-Minikube/kub-network-07-finished-Minikube/frontend/ -t imrankhan28888/kub-demo-frontend:latest4
       - name: push image to docker Hub
         run: 
           docker push imrankhan28888/kub-demo-frontend:latest4
