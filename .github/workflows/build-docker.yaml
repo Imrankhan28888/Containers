@@ -9,8 +9,8 @@ jobs:
       - name: checkout
         uses: actions/checkout@v4
       - name: Build the Docker image
-        run: docker build ./kub-network-07-finished-Minikube/kub-network-07-finished-Minikube/frontend/ -t imrankhan28888/kub-demo-frontend:latest4
+        run: docker build ./kub-network-07-finished-Minikube/kub-network-07-finished-Minikube/frontend/ -t imrankhan28888/kub-demo-frontend:latest5
       - name: Login to docker Hub
         run: |
           docker login -u imrankhan28888 -p ${{ secrets.DOCKER_HUB_TOKEN }}
-          docker push imrankhan28888/kub-demo-frontend:latest4      
+          docker push imrankhan28888/kub-demo-frontend:latest5
