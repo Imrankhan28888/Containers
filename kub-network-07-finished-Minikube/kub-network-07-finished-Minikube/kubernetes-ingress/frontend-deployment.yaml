@@ -15,4 +15,4 @@ spec:
     spec:
       containers:
         - name: frontend
-          image: imrankhan28888/kub-demo-frontend:webapplatest3
+          image: imrankhan28888/kub-demo-frontend:latest5
