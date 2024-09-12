@@ -15,7 +15,8 @@ spec:
     spec:
       containers:
         - name: tasks
-          image: imrankhan28888/kub-demo-tasks:latestwebapp
+          image: imrankhan28888/kub-demo-tasks:latestwebapp@sha256:84dfb8b950b299392a1d19258e33c5902c62442c9b541cafd150258460e25a3f
+          imagePullPolicy: Always
           env:
             - name: AUTH_ADDRESS
               # value: "10.99.104.252"
