@@ -5,5 +5,7 @@
   ],
   "kubernetes": {
     "fileMatch": ["\\.yaml$"]
-  }  
+  }
+  "enabledManagers": ["kubernetes"]
+
 }
