@@ -15,4 +15,4 @@ spec:
     spec:
       containers:
         - name: frontend
-          image: imrankhan28888/kub-demo-frontend@sha256:2f4d5ef3537d7fae7634ca51a8bcade34df8561f786a71d26f5c4320560e2f5c
+          image: imrankhan28888/kub-demo-frontend:latest5@sha256:2f4d5ef3537d7fae7634ca51a8bcade34df8561f786a71d26f5c4320560e2f5c
