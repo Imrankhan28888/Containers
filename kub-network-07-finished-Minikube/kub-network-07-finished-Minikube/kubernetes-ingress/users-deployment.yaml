@@ -15,7 +15,8 @@ spec:
     spec:
       containers:
         - name: users
-          image: imrankhan28888/kub-demo-users:latestwebapp
+          image: imrankhan28888/kub-demo-users:latestwebapp@sha256:515937b5e532ff405a24975f6d685f9ca67b1202f0caf5c7c3201bfdeb4f735f
+          imagePullPolicy: Always
           env:
             - name: AUTH_ADDRESS
               # value: "10.99.104.252"
