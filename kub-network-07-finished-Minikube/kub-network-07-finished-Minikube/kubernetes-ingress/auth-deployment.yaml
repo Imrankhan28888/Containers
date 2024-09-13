@@ -15,5 +15,5 @@ spec:
     spec:
       containers:
         - name: auth
-          image: imrankhan28888/kub-demo-auth:latestwebapp@sha256:d497505bb6a23582c12d6114adb54f9e0b107e65da46d144101c319001c4c881
+          image: imrankhan28888/kub-demo-auth:latestwebapp@sha256:3988cd70c34423b9478a324cffe9e52f3fbfc6bbc7a721c1f695c68f5f9db18b
           imagePullPolicy: Always
