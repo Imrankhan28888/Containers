@@ -52,7 +52,7 @@ function App() {
         <NewTask onAddTask={addTaskHandler} />
       </section>
       <section>
-        <button onClick={fetchTasks}>Fetch Tasks Sep13,2024-4:39pm</button>
+        <button onClick={fetchTasks}>Fetch Tasks Sep16,2024-9:43am</button>
         <TaskList tasks={tasks} />
       </section> 
     </div>
