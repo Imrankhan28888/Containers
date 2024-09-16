@@ -1,7 +1,10 @@
 name: Build and Publish image to Docker Hub
 on:
-  [push]
+  push:
+    paths-ignore:
+      - '.github/workflows/**'  
   #[workflow_dispatch]
+  
 
 jobs:
   publish_images:
