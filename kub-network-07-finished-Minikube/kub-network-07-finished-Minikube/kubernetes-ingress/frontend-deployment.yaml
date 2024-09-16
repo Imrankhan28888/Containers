@@ -15,5 +15,5 @@ spec:
     spec:
       containers:
         - name: frontend
-          image: imrankhan28888/kub-demo-frontend:latest5@sha256:0db04d5345a1194fa4d5e524649cd72e11c3b008fd92f7a76b19a5fa4caf39af
+          image: imrankhan28888/kub-demo-frontend:latest5@sha256:eac95d23b62dfecbcfbd26cfeddb77858a36c77c94388cdbaa76cbb9f6c60d5a
           imagePullPolicy: Always
