@@ -22,7 +22,7 @@ spec:
           env:
             - name: AUTH_ADDRESS
               # value: "10.99.104.252"
-              value: "auth-service.webapp"
+              value: "auth-service.dev"
             - name: TASKS_FOLDER
               value: tasks
       volumes:
