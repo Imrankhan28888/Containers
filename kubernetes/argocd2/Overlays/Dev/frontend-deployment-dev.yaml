@@ -1,0 +1,20 @@
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  name: frontend-deployment
+  namespace: webapp
+spec:
+  replicas: 2
+  selector: 
+    matchLabels:
+      app: frontend
+  template:
+    metadata:
+      labels:
+        app: frontend
+    spec:
+      containers:
+        - name: frontend
+          image: imrankhan28888/kub-demo-frontend:webapplatest3
+         #image: imrankhan28888/kub-demo-frontend:latest5@sha256:4004c4b237d64bf77d9f6f0ca513adb27008398c9884c497c11be3f9ff4aa2a1
+          imagePullPolicy: Always
