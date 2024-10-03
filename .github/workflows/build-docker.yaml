@@ -4,7 +4,8 @@ on:
     branches:
       - master
     paths-ignore:
-      - '.github/workflows/**'  
+      - '.github/workflows/**'
+      - 'kubernetes/**'  
   #[workflow_dispatch]
   
 jobs:
