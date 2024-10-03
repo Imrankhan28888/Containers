@@ -12,6 +12,7 @@ resources:
   - users-service.yaml
   - tasks-service.yaml
 
+
 #images:
   #- name: imrankhan28888/kub-demo-frontend:latest5
     #digest: sha256:ce85ee16d2195343f5ad2f483963ea55c17f3ade75a729c8c9d742ceff336b57
